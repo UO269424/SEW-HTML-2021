@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Formulario</title>
+    <meta name="description" content="Recopilación de las experiencias y opiniones de los usuarios" />
+    <meta name="author" content="Alonso Gago Suárez" />
+    <meta name="keywords" content="Bill Gates,Microsoft,Windows" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <h1>Tus experiencias cuentan!</h1>
+
+    <h2>Danos tu opinión</h2>
+    <p>A continuación tenéis disponible un formulario para contarnos más acerca de vuestras experiencias personales con Windows, productos de Microsoft, opiniones sobre Gates y todo lo que queráis. ¡¡¡Os leemos!!!</p>
+    <form>
+        <p><label>Tu nombre: <input></label></p>
+        <p><label>Tu email: <input type=email></label></p>
+        <fieldset>
+         <legend> Selecciona tu rango de edad </legend>
+         <p><label> <input type=radio name=edad> &lt; 18 </label></p>
+         <p><label> <input type=radio name=edad> 18 - 44 </label></p>
+         <p><label> <input type=radio name=edad> 45 - 65 </label></p>
+         <p><label> <input type=radio name=edad> &gt; 65 </label></p>
+        </fieldset>
+        <fieldset>
+         <legend> ¿Cuáles de las siguientes versiones de Windows has utilizado? </legend>
+         <p><label> <input type=checkbox> Windows 95 </label></p>
+         <p><label> <input type=checkbox> Windows 98 </label></p>
+         <p><label> <input type=checkbox> Windows XP </label></p>
+         <p><label> <input type=checkbox> Windows Vista </label></p>
+         <p><label> <input type=checkbox> Windows 7 </label></p>
+         <p><label> <input type=checkbox> Windows 8 </label></p>
+         <p><label> <input type=checkbox> Windows 10 </label></p>
+         <p><label> <input type=checkbox> Otras </label></p>
+         <p><label> <input type=checkbox> Ninguna </label></p>
+        </fieldset>
+        <p><label>Comentarios: <textarea></textarea></label></p>
+        <p><button>Enviar</button></p>
+       </form>    
+</body>
+</html>
