@@ -1,0 +1,56 @@
+/*especificidad -> 10*/
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: auto;
+    width: auto;
+  }
+
+/*especificidad -> 100*/
+#logoMicrosoft{
+  width: 15em;
+  height: 30em;
+  object-fit: cover;
+  padding: 1.25em;
+}
+
+/*especificidad -> 100*/
+#logoBgC3{
+  width: 15em;
+  height: 30em;
+  object-fit: cover;
+  padding: 1.25em;
+}
+
+/*especificidad -> 100*/
+#logoTerraPower{
+  width: 15em;
+  height: 30em;
+  object-fit: cover;
+  padding: 1.25em;
+}
+
+/*especificidad -> 100*/
+#logoBEN{
+  width: 15em;
+  height: 30em;
+  object-fit: cover;
+  padding: 1.25em;
+}
+
+/*especificidad -> 100*/
+#logoCascade{
+  width: 15em;
+  height: 30em;
+  object-fit: cover;
+  padding: 1.25em;
+}
+
+#logoFundacion{
+  width: 15em;
+  height: 30em;
+  object-fit: cover;
+  padding: 1.25em;
+}
