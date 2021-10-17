@@ -48,6 +48,7 @@
   padding: 1.25em;
 }
 
+/*especificidad -> 100*/
 #logoFundacion{
   width: 15em;
   height: 30em;
