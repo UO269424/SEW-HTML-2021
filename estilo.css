@@ -165,7 +165,18 @@ form input[type="email"]{
 	padding:3px 10px;
 	border:1px solid rgb(255, 255, 255);
 	border-radius:3px;
-	margin:auto;
+	margin:1em;
+	display:inline-block;
+}
+
+/*especificidad -> 12*/
+form input[type="radio"],
+form input[type="checkbox"]{
+	width:auto;
+	padding:3px 10px;
+	border:1px solid rgb(255, 255, 255);
+	border-radius:3px;
+	margin:1em;
 	display:inline-block;
 }
 
