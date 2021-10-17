@@ -165,7 +165,7 @@ form input[type="email"]{
 	padding:3px 10px;
 	border:1px solid rgb(255, 255, 255);
 	border-radius:3px;
-	margin:1em;
+	margin:2em;
 	display:inline-block;
 }
 
@@ -176,7 +176,7 @@ form input[type="checkbox"]{
 	padding:3px 10px;
 	border:1px solid rgb(255, 255, 255);
 	border-radius:3px;
-	margin:1em;
+	margin:2em;
 	display:inline-block;
 }
 
