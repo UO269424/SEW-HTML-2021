@@ -198,6 +198,11 @@ textarea{
 	display:block;
 }
 
+video{
+  max-width: 100%;
+  height: auto;
+}
+
 /*especificidad -> 100*/
 #foto{
     display: block;
