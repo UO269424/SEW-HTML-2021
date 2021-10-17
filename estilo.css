@@ -134,13 +134,15 @@ table td{
     text-align: center;
 }
 
+/*especificidad -> 1*/
 audio{
     margin-left: 1.9em;
 }
 
 
-*{box-sizing:border-box;}
+/*{box-sizing:border-box;}
 
+/*especificidad -> 1*/
 form{
 	width:auto;
 	padding:16px;
@@ -148,12 +150,14 @@ form{
 	margin:auto;
 }
 
+/*especificidad -> 2*/
 form label{
 	width:15em;
 	font-weight:bold;
 	display:inline-block;
 }
 
+/*especificidad -> 12*/
 form input[type="text"],
 form input[type="email"]{
 	width:auto;
@@ -164,6 +168,7 @@ form input[type="email"]{
 	display:inline-block;
 }
 
+/*especificidad -> 2*/
 form input[type="submit"]{
 	width:10em;
 	padding:8px 16px;
@@ -175,10 +180,12 @@ form input[type="submit"]{
 	background-color:rgb(39, 153, 5);
 } 
 
+/*especificidad -> 22*/
 form input[type="submit"]:hover{
 	cursor:pointer;
 }
 
+/*especificidad -> 1*/
 textarea{
 	width:100em;
 	height:300px;
