@@ -209,25 +209,15 @@ textarea{
 	display:block;
 }
 
+/*especificidad -> 100*/
+img{
+    display: block;
+    margin: auto;
+}
+
+
+/*especificidad -> 100*/
 video{
-  max-width: 100%;
-  height: auto;
-}
-
-/*especificidad -> 100*/
-#foto{
-    display: block;
-    margin: auto;
-}
-
-/*especificidad -> 100*/
-#versiones{
-    display: block;
-    margin: auto;
-}
-
-/*especificidad -> 100*/
-#Bill_Gates_1990{
     margin-bottom: 1.8em;
     margin-left: 1.9em;
     margin-right: 1.8em;
