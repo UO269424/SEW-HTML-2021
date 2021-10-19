@@ -231,6 +231,7 @@ video{
     margin-bottom: 1.8em;
     margin-left: 1.9em;
     margin-right: 1.8em;
-    width: 25em;
+    max-width: 100%;
+    height: auto;
 }
 
